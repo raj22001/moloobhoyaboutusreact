@@ -1,0 +1,287 @@
+@import url(https://db.onlinewebfonts.com/c/1303f23ac6a9bad6b7d1978d846636d2?family=Optima+LT+Std+Roman);
+@import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.border1 {
+   height: 100px;
+   width: 0%;
+   background: linear-gradient(0deg, #003B73 0%, transparent 0%), linear-gradient(0deg, #003B73 0%, transparent 0%), linear-gradient(0deg, #003B73 50%, transparent 50%), linear-gradient(0deg, #003B73 50%, transparent 50%);
+   background-repeat: repeat-y, repeat-y;
+   background-size: 15px 4px, 15px 4px, 4px 15px, 4px 15px;
+   background-position: 0px 0px, 20px 10px, 0px 10px, 20px 0px;
+   rotate: 90deg;
+   padding-left: 15px;
+   /* animation: border-dancel2 4s infinite linear; */
+}
+
+@keyframes border-dancel2 {
+   0% {
+      background-position: 0px 0px, 300px 116px, 0px 150px, 216px 0px;
+   }
+
+   100% {
+      background-position: 300px 0px, 0px 116px, 0px 0px, 216px 150px;
+   }
+}
+
+.border2 {
+   height: 100px;
+   width: 65%;
+   background: linear-gradient(90deg, #003B73 0%, transparent 0%), linear-gradient(90deg, #003B73 50%, transparent 50%), linear-gradient(0deg, #003B73 0%, transparent 0%), linear-gradient(0deg, #003B73 0%, transparent 0%);
+   background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+   background-size: 15px 4px, 15px 4px, 4px 15px, 4px 15px;
+   background-position: 0px 0px, 20px 100px, 0px 100px, 200px 0px;
+   padding: 10px;
+   /* animation: border-danceli 4s infinite linear; */
+}
+
+@keyframes border-danceli {
+   0% {
+      background-position: 0px 0px, 300px 116px, 0px 150px, 216px 0px;
+   }
+
+   100% {
+      background-position: 300px 0px, 0px 116px, 0px 0px, 216px 150px;
+   }
+}
+
+
+.border3 {
+   height: 100px;
+   width: 50%;
+   background: linear-gradient(90deg, #003B73 50%, transparent 50%), linear-gradient(0deg, #003B73 0%, transparent 0%), linear-gradient(0deg, #003B73 0%, transparent 00%), linear-gradient(0deg, #003B73 50%, transparent 50%);
+   background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+   background-size: 15px 4px, 15px 4px, 4px 15px, 4px 15px;
+   background-position: 0px 0px, 200px 100px, 0px 100px, 200px 0px;
+   padding: 10px;
+   /* animation: border-dancerd 4s infinite linear; */
+}
+
+@keyframes border-dancerd {
+   0% {
+      background-position: 0px 0px, 300px 116px, 0px 150px, 216px 0px;
+   }
+
+   100% {
+      background-position: 300px 0px, 0px 116px, 0px 0px, 216px 150px;
+   }
+}
+
+.border4 {
+   height: 100px;
+   width: 50%;
+   background: linear-gradient(90deg, #003B73 50%, transparent 50%),
+      linear-gradient(90deg, #003B73 0%, transparent 0%),
+      linear-gradient(0deg, #003B73 50%, transparent 50%),
+      linear-gradient(0deg, #003B73 0%, transparent 0%);
+   background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+   background-size: 15px 4px, 15px 4px, 4px 15px, 4px 15px;
+   background-position: 0px 0px, 200px 100px, 0px 100px, 200px 0px;
+   padding: 10px;
+   /* animation: border-dance 4s infinite linear; */
+}
+
+@keyframes border-dance {
+   0% {
+      background-position: 300px 0px, 0px 116px, 0px 0px, 216px 150px;
+   }
+
+   100% {
+      background-position: 0px 0px, 300px 116px, 0px 150px, 216px 0px;
+   }
+}
+
+.border5 {
+   height: 100px;
+   width: 50%;
+   background: linear-gradient(90deg, #003B73 50%, transparent 50%),
+      linear-gradient(90deg, #003B73 0%, transparent 0%),
+      linear-gradient(0deg, #003B73 50%, transparent 50%),
+      linear-gradient(0deg, #003B73 0%, transparent 0%);
+   background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+   background-size: 15px 4px, 15px 4px, 4px 15px, 4px 15px;
+   background-position: 0px 0px, 200px 100px, 0px 100px, 200px 0px;
+   padding: 10px;
+   transform: scaleX(-1);
+   /* animation: border-dance 4s infinite linear; */
+}
+
+@keyframes border-dance {
+   0% {
+      background-position: 300px 0px, 0px 116px, 0px 0px, 216px 150px;
+   }
+
+   100% {
+      background-position: 0px 0px, 300px 116px, 0px 150px, 216px 0px;
+   }
+}
+
+
+.border6 {
+   height: 100px;
+   width: 50%;
+   background: linear-gradient(90deg, #003B73 50%, transparent 50%),
+      linear-gradient(90deg, #003B73 0%, transparent 0%),
+      linear-gradient(0deg, #003B73 50%, transparent 50%),
+      linear-gradient(0deg, #003B73 0%, transparent 0%);
+   background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+   background-size: 15px 4px, 15px 4px, 4px 15px, 4px 15px;
+   background-position: 0px 0px, 200px 100px, 0px 100px, 200px 0px;
+   padding: 10px;
+   /* animation: border-dance 4s infinite linear; */
+}
+
+@keyframes border-dance {
+   0% {
+      background-position: 0px 0px, 300px 116px, 0px 150px, 216px 0px;
+   }
+
+   100% {
+      background-position: 300px 0px, 0px 116px, 0px 0px, 216px 150px;
+   }
+}
+
+.border7 {
+   height: 100px;
+   width: 50%;
+   background: linear-gradient(90deg, #003B73 50%, transparent 50%),
+      linear-gradient(90deg, #003B73 0%, transparent 0%),
+      linear-gradient(0deg, #003B73 50%, transparent 50%),
+      linear-gradient(0deg, #003B73 0%, transparent 0%);
+   background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+   background-size: 15px 4px, 15px 4px, 4px 15px, 4px 15px;
+   background-position: 0px 0px, 200px 100px, 0px 100px, 200px 0px;
+   padding: 10px;
+   transform: scaleX(-1);
+   /* animation: border-dance 4s infinite linear; */
+}
+
+@keyframes border-dance {
+   0% {
+      background-position: 300px 0px, 0px 116px, 0px 0px, 216px 150px;
+   }
+
+   100% {
+      background-position: 0px 0px, 300px 116px, 0px 150px, 216px 0px;
+   }
+}
+
+
+.border8 {
+   height: 0px;
+   width: 50%;
+   background: linear-gradient(90deg, #003B73 50%, transparent 50%),
+      linear-gradient(0deg, #003B73 0%, transparent 0%),
+      linear-gradient(0deg, #003B73 0%, transparent 0%),
+      linear-gradient(0deg, #003B73 0%, transparent 0%);
+   background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+   background-size: 15px 4px, 15px 4px, 4px 15px, 4px 15px;
+   background-position: 0px 0px, 200px 100px, 0px 100px, 200px 0px;
+   padding: 2px;
+   /* animation: border-dance 4s infinite linear; */
+}
+
+@keyframes border-dance {
+   0% {
+      background-position: 300px 0px, 0px 116px, 0px 0px, 216px 150px;
+   }
+
+   100% {
+      background-position: 0px 0px, 300px 116px, 0px 150px, 216px 0px;
+   }
+}
+
+.border9 {
+   height: 70px;
+   width: 2%;
+   background: linear-gradient(0deg, #003B73 0%, transparent 0%), linear-gradient(0deg, #003B73 0%, transparent 0%), linear-gradient(0deg, #003B73 50%, transparent 50%), linear-gradient(0deg, #003B73 50%, transparent 50%);
+   background-repeat: repeat-y, repeat-y;
+   background-size: 15px 4px, 15px 4px, 4px 15px, 4px 15px;
+   background-position: 0px 0px, 20px 10px, 0px 10px, 20px 0px;
+   rotate: 90deg;
+   padding-left: 15px;
+   /* animation: border-dancel2 4s linear; */
+   /* animation-iteration-count: 1; */
+}
+
+@keyframes border-dancel2 {
+   0% {
+      background-position: 0px 0px, 300px 116px, 0px 150px, 216px 0px;
+   }
+
+   100% {
+      background-position: 300px 0px, 0px 116px, 0px 0px, 216px 150px;
+   }
+}
+
+.fade-up {
+   opacity: 0;
+   /* Start fully transparent */
+   animation: fadeAndSlideUp 0.8s ease-in forwards;
+}
+
+@keyframes fadeAndSlideUp {
+   0% {
+      transform: translateY(50px);
+      opacity: 0.5;
+   }
+
+   100% {
+      transform: translateY(0);
+      opacity: 1;
+   }
+}
+
+.scroll {
+   width: 60px;
+   height: 60px;
+   border: 2px solid #333;
+   border-radius: 50%;
+   position: relative;
+   animation: down 1.5s infinite;
+   -webkit-animation: down 1.5s infinite;
+
+   &::before {
+      content: '';
+      position: absolute;
+      top: 18px;
+      left: 21px;
+      width: 18px;
+      height: 18px;
+      border-left: 2px solid #333;
+      border-bottom: 2px solid #333;
+      transform: rotate(135deg);
+   }
+}
+
+@keyframes down {
+   0% {
+      transform: translateY(15px);
+   }
+
+   20% {
+      transform: translateY(0px);
+   }
+
+   40% {
+      transform: translateY(10px);
+   }
+}
+
+@-webkit-keyframes down {
+   0% {
+      transform: translate(0);
+   }
+
+   20% {
+      transform: translateY(15px);
+   }
+
+   40% {
+      transform: translate(0);
+   }
+}
